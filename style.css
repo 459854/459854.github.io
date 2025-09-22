@@ -8,3 +8,7 @@ h1 {
 p {
   color: red;
 }
+.post {
+  background-color:green;
+  outline:10px;
+}

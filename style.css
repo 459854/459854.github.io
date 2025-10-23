@@ -4,29 +4,22 @@ body {
   background-size:200px;
 font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
-.soup{
-    animation-name: myAnimation;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-@keyframes myAnimation {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
 h1 {
-  color: blue;
-    text-shadow: 2px 2px 5px red;
+  color: black;
 }
 p {
-  color: red;
+  color: black;
 }
 .post {
-  background-color:green;
+  background-color:steelblue;
   outline:10px;
   padding:10px;
   margin:25px 50px;
-  shadow: 2px 2px 5px red;
+  box-shadow: 2px 2px 5px black;
+  border-radius:10px;
+}
+a {
+  color: navyblue;
+  font-weight: bold;
+  text-decoration:none;
 }

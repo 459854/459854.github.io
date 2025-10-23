@@ -19,7 +19,7 @@ p {
   border-radius:10px;
 }
 .inset{
-  background color:green;
+  background-color:green;
   padding:5px 10px;
   box-shadow:inset 2px 2px 5px black;
   border-radius:10px;

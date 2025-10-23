@@ -12,14 +12,20 @@ p {
 }
 .post {
   background-color:steelblue;
-  outline:10px;
+  outline:5px solid cadetblue;
   padding:10px;
   margin:25px 50px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 5px 5px 10px black;
+  border-radius:10px;
+}
+.inset{
+  background color:green;
+  padding:5px 10px;
+  box-shadow:inset 2px 2px 5px black;
   border-radius:10px;
 }
 a {
-  color: navyblue;
+  color: navy;
   font-weight: bold;
   text-decoration:none;
 }

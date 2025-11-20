@@ -153,6 +153,8 @@
                 padding: 20px;
                 font-size: smaller;
                     border:10px solid #4863A0;
+                      border-radius: 10px;
+                        box-shadow: 10px 10px 5px 12px black;
                 /* this makes the sidebar text slightly smaller */
             }
 
@@ -165,6 +167,9 @@
                 padding: 20px;
                 order: 2;
                    border:10px solid #2F539B;
+                      border-radius: 10px;
+  box-shadow: 10px 10px 5px 12px black;
+
             }
 
             /* what's this "order" stuff about??
@@ -208,9 +213,10 @@
 
             /* this is just a cool box, it's the darker colored one */
             .box {
-                background-color: #13092D;
-                border: 1px solid #ED64F5;
+                background-color: #4863A0;
                 padding: 10px;
+          border-radius: 10px;
+          box-shadow: 10px 10px 5px lightblue inset;
             }
 
             /* CSS for extras */

@@ -148,10 +148,11 @@
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
             aside {
-                background-color: #241445;
+                background-color: #728FCE;
                 width: 200px;
                 padding: 20px;
                 font-size: smaller;
+                    border:10px solid #4863A0;
                 /* this makes the sidebar text slightly smaller */
             }
 
@@ -159,10 +160,11 @@
             /* this is the color of the main content area,
     between the sidebars! */
             main {
-                background-color: #43256E;
+                background-color:#4863A0;
                 flex: 1;
                 padding: 20px;
                 order: 2;
+                   border:10px solid #2F539B;
             }
 
             /* what's this "order" stuff about??
